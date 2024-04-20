@@ -1,3 +1,17 @@
+body{
+  background-image: url(assets/bg-image.jpg);
+  background-size: cover;
+}
+
+#page{
+  box-sizing: border-box; /*tira o padrao da caixa para não somar os paddings e ficar centralizado*/
+  width: 800px;
+  padding: 24px;
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  margin: 48px auto; /* a imagem ficando com 48 de espaço em cima e em baixo e no meio - auto dos lados*/
+}
+
 img {
   border-radius: 16px;
 }
